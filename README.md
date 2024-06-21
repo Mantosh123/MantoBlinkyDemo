@@ -1,16 +1,12 @@
-# Bluetooth Basics
+# Manto Blinky Demo
 BluetoothCurrentStatusDemo is the used to see current status of bluetooth 
 
 ## Usage
 
-### Get Bluetooth status
+### LED On OFF status
 
 ```swift
-if central.state == CBManagerState.poweredOn {
-    print("your Bluetooth is ON")
-} else {
-    print("your bluetooth is OFF")
-}
+User can write 0x01 value on light Characteristic for ON and 0x00 for OFF
 ```
 
 
