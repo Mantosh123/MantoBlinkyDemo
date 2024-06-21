@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rvM-cv-6Ai">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MantoBlinkyDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="NhH-0B-bhs">
+                                <rect key="frame" x="0.0" y="91" width="390" height="753"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PeripheralCell" id="wn0-q6-wsE" customClass="PeripheralCell" customModule="MantoBlinkyDemo" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="390" height="51.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wn0-q6-wsE" id="qN0-a4-1Qb">
+                                            <rect key="frame" x="0.0" y="0.0" width="390" height="51.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="491-ah-SAY">
+                                                    <rect key="frame" x="38" y="15" width="332" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="491-ah-SAY" id="gbC-zf-0qV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="ebJ-My-8uo"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Nvl-Ek-GMM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NhH-0B-bhs" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="7Px-W8-hD7"/>
+                            <constraint firstItem="NhH-0B-bhs" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="JyY-5L-mOD"/>
+                            <constraint firstItem="NhH-0B-bhs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cJO-bC-q63"/>
+                            <constraint firstAttribute="bottom" secondItem="NhH-0B-bhs" secondAttribute="bottom" id="uy4-8u-8ng"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="1OM-Wu-kNt">
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="mnu-xU-dQP">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="w6y-Rd-NfV">
+                                <rect key="frame" x="288" y="2" width="86" height="40.333333333333336"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="scanButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VVe-Ed-rxd"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="NhH-0B-bhs" id="17J-Pd-T85"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816.92307692307691" y="10.663507109004739"/>
+        </scene>
+        <!--Blinky View Controller-->
+        <scene sceneID="cSO-9V-mmB">
+            <objects>
+                <viewController storyboardIdentifier="BlinkyViewController" id="mSZ-i7-gPB" customClass="BlinkyViewController" customModule="MantoBlinkyDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5DV-Yd-NgZ">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mIf-pR-B9B">
+                                <rect key="frame" x="0.0" y="104" width="390" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="light.beacon.max" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Rf0-gi-3dd">
+                                        <rect key="frame" x="15" y="2.6666666666666679" width="44" height="42.666666666666657"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="44" id="fv0-iJ-VuH"/>
+                                            <constraint firstAttribute="width" constant="44" id="nYR-FE-kt3"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="ENA-uj-ueQ">
+                                        <rect key="frame" x="180" y="0.0" width="200" height="50"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uf-nj-p4O">
+                                                <rect key="frame" x="0.0" y="0.0" width="95" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="On"/>
+                                                <connections>
+                                                    <action selector="lightOnAction:" destination="mSZ-i7-gPB" eventType="touchUpInside" id="wu4-DW-Ww2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Vq-dw-HtU">
+                                                <rect key="frame" x="105" y="0.0" width="95" height="50"/>
+                                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" title="OFF"/>
+                                                <connections>
+                                                    <action selector="lightOffAction:" destination="mSZ-i7-gPB" eventType="touchUpInside" id="Xuh-Ml-u0F"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="4gJ-xU-caU"/>
+                                            <constraint firstAttribute="width" constant="200" id="bnV-9t-2jK"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                <constraints>
+                                    <constraint firstItem="Rf0-gi-3dd" firstAttribute="leading" secondItem="mIf-pR-B9B" secondAttribute="leading" constant="15" id="2fU-Xd-gGQ"/>
+                                    <constraint firstItem="ENA-uj-ueQ" firstAttribute="centerY" secondItem="mIf-pR-B9B" secondAttribute="centerY" id="3eh-8d-wrQ"/>
+                                    <constraint firstItem="Rf0-gi-3dd" firstAttribute="centerY" secondItem="mIf-pR-B9B" secondAttribute="centerY" id="94a-BJ-ydK"/>
+                                    <constraint firstAttribute="trailing" secondItem="ENA-uj-ueQ" secondAttribute="trailing" constant="10" id="SLa-Qk-fMp"/>
+                                    <constraint firstAttribute="height" constant="50" id="eww-dy-7sw"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="RsU-cI-74i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mIf-pR-B9B" firstAttribute="leading" secondItem="RsU-cI-74i" secondAttribute="leading" id="Isu-6s-Acs"/>
+                            <constraint firstItem="mIf-pR-B9B" firstAttribute="trailing" secondItem="RsU-cI-74i" secondAttribute="trailing" id="ODF-SL-ZjF"/>
+                            <constraint firstItem="mIf-pR-B9B" firstAttribute="top" secondItem="RsU-cI-74i" secondAttribute="top" constant="57" id="SyU-08-BPu"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lightImage" destination="Rf0-gi-3dd" id="Dww-UI-a9Y"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZv-9e-xso" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="0.0"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ibM-q7-rno">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rvM-cv-6Ai" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="5Qb-kW-2HX">
+                        <rect key="frame" x="0.0" y="47" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cOp-Xl-6Lz"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LeJ-f2-vVx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="36" y="11"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="light.beacon.max" catalog="system" width="128" height="102"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

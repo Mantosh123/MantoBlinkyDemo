@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1EA537FB-38F6-4C07-AF38-9998FAFA9616"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2B6BFBF8-B027-4BA9-A47B-07A0D75B70F2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MantoBlinkyDemo/BlinkyViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "peripheral(_:didDiscoverCharacteristicsFor:error:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2B6BFBF8-B027-4BA9-A47B-07A0D75B70F2 - b20522084f59aff6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MantoBlinkyDemo.BlinkyViewController.peripheral(_: __C.CBPeripheral, didDiscoverServices: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "MantoBlinkyDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mantosh/Desktop/MantoBlinkyDemo/MantoBlinkyDemo/BlinkyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "2B6BFBF8-B027-4BA9-A47B-07A0D75B70F2 - d4edf9c4b808bb57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MantoBlinkyDemo.BlinkyViewController.peripheral(_: __C.CBPeripheral, didDiscoverCharacteristicsFor: __C.CBService, error: Swift.Optional&lt;Swift.Error&gt;) -&gt; ()"
+                  moduleName = "MantoBlinkyDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mantosh/Desktop/MantoBlinkyDemo/MantoBlinkyDemo/BlinkyViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

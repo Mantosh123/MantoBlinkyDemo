@@ -1,0 +1,620 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B49979502C25C7FB0091A79B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499794F2C25C7FB0091A79B /* AppDelegate.swift */; };
+		B49979522C25C7FB0091A79B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979512C25C7FB0091A79B /* SceneDelegate.swift */; };
+		B49979542C25C7FB0091A79B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979532C25C7FB0091A79B /* ViewController.swift */; };
+		B49979572C25C7FB0091A79B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B49979552C25C7FB0091A79B /* Main.storyboard */; };
+		B49979592C25C7FC0091A79B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B49979582C25C7FC0091A79B /* Assets.xcassets */; };
+		B499795C2C25C7FC0091A79B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B499795A2C25C7FC0091A79B /* LaunchScreen.storyboard */; };
+		B49979672C25C7FD0091A79B /* MantoBlinkyDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979662C25C7FD0091A79B /* MantoBlinkyDemoTests.swift */; };
+		B49979712C25C7FD0091A79B /* MantoBlinkyDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979702C25C7FD0091A79B /* MantoBlinkyDemoUITests.swift */; };
+		B49979732C25C7FD0091A79B /* MantoBlinkyDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979722C25C7FD0091A79B /* MantoBlinkyDemoUITestsLaunchTests.swift */; };
+		B49979802C25CE760091A79B /* PeripheralCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B499797F2C25CE760091A79B /* PeripheralCell.swift */; };
+		B49979822C25D3FC0091A79B /* BlinkyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49979812C25D3FC0091A79B /* BlinkyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B49979632C25C7FD0091A79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49979442C25C7FB0091A79B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B499794B2C25C7FB0091A79B;
+			remoteInfo = MantoBlinkyDemo;
+		};
+		B499796D2C25C7FD0091A79B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B49979442C25C7FB0091A79B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B499794B2C25C7FB0091A79B;
+			remoteInfo = MantoBlinkyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B499794C2C25C7FB0091A79B /* MantoBlinkyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MantoBlinkyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B499794F2C25C7FB0091A79B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B49979512C25C7FB0091A79B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B49979532C25C7FB0091A79B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B49979562C25C7FB0091A79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B49979582C25C7FC0091A79B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B499795B2C25C7FC0091A79B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B499795D2C25C7FC0091A79B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B49979622C25C7FD0091A79B /* MantoBlinkyDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantoBlinkyDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49979662C25C7FD0091A79B /* MantoBlinkyDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantoBlinkyDemoTests.swift; sourceTree = "<group>"; };
+		B499796C2C25C7FD0091A79B /* MantoBlinkyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MantoBlinkyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B49979702C25C7FD0091A79B /* MantoBlinkyDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantoBlinkyDemoUITests.swift; sourceTree = "<group>"; };
+		B49979722C25C7FD0091A79B /* MantoBlinkyDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MantoBlinkyDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B499797F2C25CE760091A79B /* PeripheralCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralCell.swift; sourceTree = "<group>"; };
+		B49979812C25D3FC0091A79B /* BlinkyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlinkyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B49979492C25C7FB0091A79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499795F2C25C7FD0091A79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49979692C25C7FD0091A79B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B49979432C25C7FB0091A79B = {
+			isa = PBXGroup;
+			children = (
+				B499794E2C25C7FB0091A79B /* MantoBlinkyDemo */,
+				B49979652C25C7FD0091A79B /* MantoBlinkyDemoTests */,
+				B499796F2C25C7FD0091A79B /* MantoBlinkyDemoUITests */,
+				B499794D2C25C7FB0091A79B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B499794D2C25C7FB0091A79B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B499794C2C25C7FB0091A79B /* MantoBlinkyDemo.app */,
+				B49979622C25C7FD0091A79B /* MantoBlinkyDemoTests.xctest */,
+				B499796C2C25C7FD0091A79B /* MantoBlinkyDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B499794E2C25C7FB0091A79B /* MantoBlinkyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B499794F2C25C7FB0091A79B /* AppDelegate.swift */,
+				B49979512C25C7FB0091A79B /* SceneDelegate.swift */,
+				B49979532C25C7FB0091A79B /* ViewController.swift */,
+				B49979812C25D3FC0091A79B /* BlinkyViewController.swift */,
+				B499797F2C25CE760091A79B /* PeripheralCell.swift */,
+				B49979552C25C7FB0091A79B /* Main.storyboard */,
+				B49979582C25C7FC0091A79B /* Assets.xcassets */,
+				B499795A2C25C7FC0091A79B /* LaunchScreen.storyboard */,
+				B499795D2C25C7FC0091A79B /* Info.plist */,
+			);
+			path = MantoBlinkyDemo;
+			sourceTree = "<group>";
+		};
+		B49979652C25C7FD0091A79B /* MantoBlinkyDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B49979662C25C7FD0091A79B /* MantoBlinkyDemoTests.swift */,
+			);
+			path = MantoBlinkyDemoTests;
+			sourceTree = "<group>";
+		};
+		B499796F2C25C7FD0091A79B /* MantoBlinkyDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B49979702C25C7FD0091A79B /* MantoBlinkyDemoUITests.swift */,
+				B49979722C25C7FD0091A79B /* MantoBlinkyDemoUITestsLaunchTests.swift */,
+			);
+			path = MantoBlinkyDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B499794B2C25C7FB0091A79B /* MantoBlinkyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49979762C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemo" */;
+			buildPhases = (
+				B49979482C25C7FB0091A79B /* Sources */,
+				B49979492C25C7FB0091A79B /* Frameworks */,
+				B499794A2C25C7FB0091A79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MantoBlinkyDemo;
+			productName = MantoBlinkyDemo;
+			productReference = B499794C2C25C7FB0091A79B /* MantoBlinkyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B49979612C25C7FD0091A79B /* MantoBlinkyDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B49979792C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemoTests" */;
+			buildPhases = (
+				B499795E2C25C7FD0091A79B /* Sources */,
+				B499795F2C25C7FD0091A79B /* Frameworks */,
+				B49979602C25C7FD0091A79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B49979642C25C7FD0091A79B /* PBXTargetDependency */,
+			);
+			name = MantoBlinkyDemoTests;
+			productName = MantoBlinkyDemoTests;
+			productReference = B49979622C25C7FD0091A79B /* MantoBlinkyDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B499796B2C25C7FD0091A79B /* MantoBlinkyDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B499797C2C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemoUITests" */;
+			buildPhases = (
+				B49979682C25C7FD0091A79B /* Sources */,
+				B49979692C25C7FD0091A79B /* Frameworks */,
+				B499796A2C25C7FD0091A79B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B499796E2C25C7FD0091A79B /* PBXTargetDependency */,
+			);
+			name = MantoBlinkyDemoUITests;
+			productName = MantoBlinkyDemoUITests;
+			productReference = B499796C2C25C7FD0091A79B /* MantoBlinkyDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B49979442C25C7FB0091A79B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B499794B2C25C7FB0091A79B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					B49979612C25C7FD0091A79B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B499794B2C25C7FB0091A79B;
+					};
+					B499796B2C25C7FD0091A79B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = B499794B2C25C7FB0091A79B;
+					};
+				};
+			};
+			buildConfigurationList = B49979472C25C7FB0091A79B /* Build configuration list for PBXProject "MantoBlinkyDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B49979432C25C7FB0091A79B;
+			productRefGroup = B499794D2C25C7FB0091A79B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B499794B2C25C7FB0091A79B /* MantoBlinkyDemo */,
+				B49979612C25C7FD0091A79B /* MantoBlinkyDemoTests */,
+				B499796B2C25C7FD0091A79B /* MantoBlinkyDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B499794A2C25C7FB0091A79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B499795C2C25C7FC0091A79B /* LaunchScreen.storyboard in Resources */,
+				B49979592C25C7FC0091A79B /* Assets.xcassets in Resources */,
+				B49979572C25C7FB0091A79B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49979602C25C7FD0091A79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499796A2C25C7FD0091A79B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B49979482C25C7FB0091A79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49979542C25C7FB0091A79B /* ViewController.swift in Sources */,
+				B49979502C25C7FB0091A79B /* AppDelegate.swift in Sources */,
+				B49979822C25D3FC0091A79B /* BlinkyViewController.swift in Sources */,
+				B49979522C25C7FB0091A79B /* SceneDelegate.swift in Sources */,
+				B49979802C25CE760091A79B /* PeripheralCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B499795E2C25C7FD0091A79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49979672C25C7FD0091A79B /* MantoBlinkyDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B49979682C25C7FD0091A79B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49979732C25C7FD0091A79B /* MantoBlinkyDemoUITestsLaunchTests.swift in Sources */,
+				B49979712C25C7FD0091A79B /* MantoBlinkyDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B49979642C25C7FD0091A79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B499794B2C25C7FB0091A79B /* MantoBlinkyDemo */;
+			targetProxy = B49979632C25C7FD0091A79B /* PBXContainerItemProxy */;
+		};
+		B499796E2C25C7FD0091A79B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B499794B2C25C7FB0091A79B /* MantoBlinkyDemo */;
+			targetProxy = B499796D2C25C7FD0091A79B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B49979552C25C7FB0091A79B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B49979562C25C7FB0091A79B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B499795A2C25C7FC0091A79B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B499795B2C25C7FC0091A79B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B49979742C25C7FD0091A79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B49979752C25C7FD0091A79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B49979772C25C7FD0091A79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SJ2TEW8J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MantoBlinkyDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Get peripherals device ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BluetoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B49979782C25C7FD0091A79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6SJ2TEW8J2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MantoBlinkyDemo/Info.plist;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Get peripherals device ";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.BluetoothDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B499797A2C25C7FD0091A79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.MantoBlinkyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantoBlinkyDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MantoBlinkyDemo";
+			};
+			name = Debug;
+		};
+		B499797B2C25C7FD0091A79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.MantoBlinkyDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MantoBlinkyDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MantoBlinkyDemo";
+			};
+			name = Release;
+		};
+		B499797D2C25C7FD0091A79B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.MantoBlinkyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MantoBlinkyDemo;
+			};
+			name = Debug;
+		};
+		B499797E2C25C7FD0091A79B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abc.MantoBlinkyDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MantoBlinkyDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B49979472C25C7FB0091A79B /* Build configuration list for PBXProject "MantoBlinkyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49979742C25C7FD0091A79B /* Debug */,
+				B49979752C25C7FD0091A79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49979762C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B49979772C25C7FD0091A79B /* Debug */,
+				B49979782C25C7FD0091A79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B49979792C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499797A2C25C7FD0091A79B /* Debug */,
+				B499797B2C25C7FD0091A79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B499797C2C25C7FD0091A79B /* Build configuration list for PBXNativeTarget "MantoBlinkyDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B499797D2C25C7FD0091A79B /* Debug */,
+				B499797E2C25C7FD0091A79B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B49979442C25C7FB0091A79B /* Project object */;
+}
